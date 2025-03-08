@@ -377,30 +377,12 @@ const ExampleComponent = () => {
           hiddenColumns.push(baseColumnsCount + i);
         }
       }
-
-
-
     }
     hot.updateSettings({
       hiddenColumns: { columns: hiddenColumns },
     });
-
   }
 
-  // const toggleTable = () => {
-  //   if (hotTableRef.current) {
-  //     const hot = hotTableRef.current.hotInstance;
-  //     const plugin = hot.getPlugin('NestedRows').collapsingUI;
-  //     if (isExpanded2) {
-  //       // Colapsa la tabla hasta el nivel 1
-  //       plugin.collapseAll();
-  //     } else {
-  //       // Expande la tabla completamente
-  //       plugin.expandAll();
-  //     }
-  //     setIsExpanded2(!isExpanded2);
-  //   }
-  // };
 
 
   console.log(costCenterColHeaders) // returned an array with 28 elements

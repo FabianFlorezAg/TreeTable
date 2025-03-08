@@ -18,10 +18,10 @@ const toColumnName = (num: number): string => {
 };
 
 // Generate an array of arrays with dummy data (50 rows x 50 columns)
-const data = new Array(50)
+const data = new Array(1000)
   .fill(null)
   .map((_, row) =>
-    new Array(50)
+    new Array(1000)
       .fill(null)
       .map((_, col) => `${row}, ${col}`)
   );
